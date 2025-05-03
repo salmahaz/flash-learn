@@ -55,19 +55,19 @@ const HomeContent = () => {
             </p>
             <div className="flex flex-col space-y-3">
               <Link
-                href="/createFlashCards"
+                href="/create"
                 className="w-full bg-[#006A71] text-white py-2 sm:py-3 px-3 rounded-md sm:rounded-lg hover:bg-[#48A6A7] transition ease-in-out duration-300 text-[10px] sm:text-xs text-center"
               >
                 Create Flashcard
               </Link>
               <Link
-                href="/generateFlashCards"
+                href="/generate"
                 className="w-full bg-[#006A71] text-white py-2 sm:py-3 px-3 rounded-md sm:rounded-lg hover:bg-[#48A6A7] transition ease-in-out duration-300 text-[10px] sm:text-xs text-center"
               >
                 Generate Flashcards
               </Link>
               <Link
-                href="/allFlashCards"
+                href="/all"
                 className="w-full bg-[#006A71] text-white py-2 sm:py-3 px-3 rounded-md sm:rounded-lg hover:bg-[#48A6A7] transition ease-in-out duration-300 text-[10px] sm:text-xs text-center"
               >
                 View Flashcards
